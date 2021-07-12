@@ -27,7 +27,7 @@ if __name__ == '__main__':
             client = paramiko.SSHClient()
             client.set_missing_host_key_policy(paramiko.AutoAddPolicy())
 
-            client.connect('54.242.49.198', username='root', password='2VATSIIYPXWLL2C2WYAY3HZP')
+            client.connect('ip', username='root', password='pass')
             
             # 1- load the needed scripts
             load_scripts(client)
