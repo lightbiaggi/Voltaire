@@ -2,7 +2,7 @@
 
 <!--- These are examples. See https://shields.io for others or to customize this set of shields. You might want to include dependencies, project status and licence info here --->
 ![GitHub repo size](https://img.shields.io/github/repo-size/scottydocs/README-template.md)
-![GitHub contributors](https://img.shields.io/github/contributors/scottydocs/README-template.md)l)
+![GitHub contributors](https://img.shields.io/github/contributors/scottydocs/README-template.md))
 
 Project name is a `Voltair that allows `ops admins` to do 
 - install and remove pakages from any debian/ubuntu server, which can also be added to the config file
@@ -41,7 +41,7 @@ sudo ./orchestrator.py deploy
 
 playbook output example
 
-![playbook output](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![playbook output](https://github.com/lightbiaggi/Voltaire/blob/main/img/playbook.png?raw=true)
 
 ### Apache server cur output
 
