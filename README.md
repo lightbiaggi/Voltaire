@@ -1,3 +1,6 @@
+# Task one
+pdf is linked here
+# task 2
 # Voltair ( Your Configurations Poet)
 
 <!--- These are examples. See https://shields.io for others or to customize this set of shields. You might want to include dependencies, project status and licence info here --->
@@ -47,8 +50,14 @@ playbook output example
 
 here are the curls
 
-![server1](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![server1](https://github.com/lightbiaggi/Voltaire/blob/main/img/server1.png?raw=true)
 
-![server2](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![server2](https://github.com/lightbiaggi/Voltaire/blob/main/img/server2.png?raw=true)
+
+
+### Future implementation and nice to add
+- Get server info and authentication from pass managment like vault or PASS store
+- Manage different linux distrubution such REHL 
+- Create lookup mechanisim to identify services based on the packages install automatically without put it on config or playbook
 
 
