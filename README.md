@@ -1,4 +1,4 @@
-# Voltair ( your Configurations Poet)
+# Voltair ( Your Configurations Poet)
 
 <!--- These are examples. See https://shields.io for others or to customize this set of shields. You might want to include dependencies, project status and licence info here --->
 ![GitHub repo size](https://img.shields.io/github/repo-size/scottydocs/README-template.md)
@@ -30,13 +30,25 @@ sudo ./orchestrator.py deploy
     ├── apps-to-remove                    # list of packages that needed to be removed config file
     ├── appsinstaller.py                  # The model that handles installing and removing the packages
     ├── bootstrap.sh                      # A file to install python requirements and build packages on host to run this program
-    ├── orchestrator.py                   #  this is the orschestator that handle sshing into the remote host and run the bootstrap and playbook also does clean       |                                     #  up and varios extra tasks
+    ├── orchestrator.py                   # this is the orschestator that handle sshing into the remote host and run the bootstrap and playbook also does clean       |                                     #  up and varios extra tasks
     ├── playbook.py                       # A playbook to bootstrap an Apache server
     ├── servicemanager.py                 # Handles services managmenet and file managment
     ├── services                          # List of services can be used as config for services to be started or restarted
     └── README.md
 
 
+### Playbook output
 
+playbook output example
+
+![playbook output](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+
+### Apache server cur output
+
+here are the curls
+
+![server1](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+
+![server2](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
 
 
