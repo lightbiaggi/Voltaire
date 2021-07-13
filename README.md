@@ -8,13 +8,17 @@
 ![GitHub contributors](https://img.shields.io/github/contributors/scottydocs/README-template.md))
 
 Project name is a `Voltair that allows `ops admins` to do 
-- install and remove pakages from any debian/ubuntu server, which can also be added to the config file
-- start and restart a service list of services can be added into config or used inside a playbook
-- Create files and assign mode, user and grouo
-- includes and run bootstrap what all needed to run this program
-- playbook for a sample Apache webserver is provided
+- Install and remove pakages from any debian/ubuntu server, which can also be added to the config file
+- Start and restart a service list of services can be added into config or used inside a playbook
+- Create files and assign mode, user and group
+- Includes and run bootstrap what all needed to run this program
+- Playbook for a sample Apache webserver is provided
 
 
+## Prequisities
+you need to have python3 and install requirments.txt
+```pip3 install -r requirments.txt
+```
 
 ## Run Voltaire
 
