@@ -49,7 +49,7 @@ if __name__ == '__main__':
             
             
             # 4 - change the apache.conf to use .htaccess
-            istdin, stdout, stderr  = client.exec_command("sed '/<Directory \/var\/www\/>/,/<\/Directory>/ s/AllowOverride None/AllowOverride all/' /etc/apache2/apache2.conf > /etc/apache2/apache2.conf")
+            istdin, stdout, stderr  = client.exec_command("sed -i '/<Directory \/var\/www\/>/,/<\/Directory>/ s/AllowOverride None/AllowOverride all/' /etc/apache2/apache2.conf > /etc/apache2/apache2.conf")
             print("stderr: ", stderr.readlines())
             print("stdout: ", stdout.readlines())
             
