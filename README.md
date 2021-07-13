@@ -17,7 +17,8 @@ Project name is a `Voltair that allows `ops admins` to do
 
 ## Prequisities
 you need to have python3 and install requirments.txt
-```pip3 install -r requirments.txt
+```
+pip3 install -r requirments.txt
 ```
 
 ## Run Voltaire
