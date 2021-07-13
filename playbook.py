@@ -11,7 +11,7 @@ def webapp_playbook():
     start_service("apache2")
     enable_service("apache2")
     # step 3 : change the root page to index.php and add .htacceess
-    print("################## step 3 : install apache2 package #################################################################") 
+    print("################## step 3 : add index.php and .htaccess and set mode and owner ######################################") 
     #index File
     index_content = """<?php header("Content-Type: text/plain");echo "hello world\n";?>"""
     set_file_content_metadata("/var/www/html/index.php", index_content, "root", "apache", 775)
