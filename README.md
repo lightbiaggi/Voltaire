@@ -23,7 +23,7 @@ pip3 install -r requirments.txt
 
 ## Run Voltaire
 
-to run it you need to exceute 
+to run it you need to exceute ( you need to provide ip username and password inside script
 ```
 sudo ./orchestrator.py deploy
 ```
