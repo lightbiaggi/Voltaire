@@ -1,5 +1,4 @@
-# Task 1 (fix vm)
-[Link to pdf] (https://github.com/lightbiaggi/Voltaire/blob/main/assignmentFormated.pdf)
+
 # task 2
 # Voltair ( Your Configurations Poet)
 
